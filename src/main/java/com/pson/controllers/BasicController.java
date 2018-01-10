@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BasicController {
     //pod adresem localhost:8080/dupa bedzie widac hello world
-    @RequestMapping(value = "/dupa",produces = "application/json")
+    @RequestMapping(value = "/dupaa",produces = "application/json")
     String home() {
         return "Hello World!";
     }
